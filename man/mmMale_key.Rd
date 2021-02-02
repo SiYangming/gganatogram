@@ -4,14 +4,16 @@
 \name{mmMale_key}
 \alias{mmMale_key}
 \title{Color Key for Mouse Male}
-\format{A \code{data.frame} with 4 columns, which are:
+\format{
+A \code{data.frame} with 4 columns, which are:
 \describe{
 \item{organ}{the name of the organ}
 \item{type}{organ system: circulation, digestion, nervous
 system, other, respiratory }
 \item{colour}{color to highlight of the data}
 \item{value}{the value to fill the data in an example}
-}}
+}
+}
 \usage{
 mmMale_key
 }

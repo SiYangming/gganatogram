@@ -4,9 +4,16 @@
 \alias{gganatogram}
 \title{gganatogram}
 \usage{
-gganatogram(data = NULL, outline = TRUE, fillOutline = "lightgray",
-  organism = "human", sex = "male", fill = "colour",
-  anatogram = NULL, ggplot2_only = FALSE)
+gganatogram(
+  data = NULL,
+  outline = TRUE,
+  fillOutline = "lightgray",
+  organism = "human",
+  sex = "male",
+  fill = "colour",
+  anatogram = NULL,
+  ggplot2_only = FALSE
+)
 }
 \arguments{
 \item{data}{The main data frame consisting of what organs to plot,

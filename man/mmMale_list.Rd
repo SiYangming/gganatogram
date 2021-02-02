@@ -4,7 +4,8 @@
 \name{mmMale_list}
 \alias{mmMale_list}
 \title{Plotting Coordinates for Mouse Male}
-\format{A \code{list} with 340 elements columns, each of which are
+\format{
+A \code{list} with 340 elements columns, each of which are
 a \code{data.frame} with 6 columns:
 \describe{
 \item{X1}{coordinates in x-dimension}
@@ -13,7 +14,8 @@ a \code{data.frame} with 6 columns:
 \item{x}{coordinates in x-dimension, duplicated for ease of use}
 \item{y}{coordinates in x-dimension, duplicated for ease of use}
 \item{group}{polygon group to avoid linkage between polygons }
-}}
+}
+}
 \usage{
 mmMale_list
 }

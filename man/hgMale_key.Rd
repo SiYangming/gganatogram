@@ -4,14 +4,16 @@
 \name{hgMale_key}
 \alias{hgMale_key}
 \title{Color Key for Human Male}
-\format{A \code{data.frame} with 4 columns, which are:
+\format{
+A \code{data.frame} with 4 columns, which are:
 \describe{
 \item{organ}{the name of the organ}
 \item{type}{organ system: circulation, digestion, nervous
 system, other, respiratory }
 \item{colour}{color to highlight of the data}
 \item{value}{the value to fill the data in an example}
-}}
+}
+}
 \usage{
 hgMale_key
 }
